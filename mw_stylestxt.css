@@ -1,15 +1,53 @@
 ﻿/*
    New Perspectives on HTML and CSS
    Tutorial 3
-   Case Problem 2
+   Case Problem ,
 
    Mountain Wheels Text and Color Style
-   Author: 
-   Date:   
+   Author: Harold Bermudez
+   Date: 2/1/17
 
-   Filename:         mw_layout.css
+   Filename: mw_layout.css
    Supporting Files: none
 
 */
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
 
+#articleheader {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 7px;
+  text-align: center;
+}
 
+nav li {
+  list-style-type: none;
+}
+
+nav {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+  list-style-type: none;
+}
+
+nav a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: rgb(131, 121, 36);
+  list-style-image: url(wheelmarker.png);
+}
+
+nav a:hover {
+  color: white;
+  opacity: 0.5;
+}
+#leftsection:first-line {
+  font-size: 22px;
+  text-transform: uppercase;
+}
